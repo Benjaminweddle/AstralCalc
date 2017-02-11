@@ -1,0 +1,66 @@
+# A simple program to calculate max DPT for Astral Tower Defense Weapons
+# This is not an optimizer.  It is only designed to use Python to calculate the
+# various Upgrade cost and DPT of each weapon type
+EMMaxBaseDMG = 180 #Value for tower when fully upgraded
+BioMaxBaseDMG = 180
+GatlingMaxBaseDMG = 180
+MissleMaxBaseDMG = 255
+# Sum of the cost in credits for each upgrade
+EMUpgradeCost = 20+60+200+525+1200+1800+2600+3600+4200+4700
+BioUpgradeCost = 15+55+175+360+950+1350+2175+3000+3500+4100
+GatlingUpgradeCost = 10+25+75+200+600+1000+1600+2000+2800+3600
+MissleUpgradeCost = 15+55+175+450+1050+1500+2425+2900+3700+4300
+#Max Range
+EMMaxRange = 4
+BioMaxRange = 4
+GatlingMaxRange = 3
+MissleMaxRange = 5
+# Max Fire Rate
+EMMaxFireRate = 4
+BioMaxFireRate = 4
+GatlingMaxFireRate = 6
+MissleMaxFireRate = 3
+# Max DPT of each weopon type
+EMMaxBaseDPT = EMMaxBaseDMG*EMMaxFireRate
+BioMaxBaseDPT = BioMaxBaseDMG*BioMaxFireRate
+GatlingMaxBaseDPT = GatlingMaxBaseDMG*GatlingMaxFireRate
+MissleMaxBaseDPT = MissleMaxBaseDMG*MissleMaxFireRate
+
+print "The Raw Max damage per unit of time for each weapon type is as follows:"
+print "EM weapons: %d" %EMMaxBaseDPT
+print "Bio weapons: %d" %BioMaxBaseDPT
+print "Gatling: %d" %GatlingMaxBaseDPT
+print "Missle: %d" %MissleMaxBaseDPT
+print
+print "Total cost in credits to upgrade each type to level 10 (max) is as follows:"
+print "EM weapons: %d" %EMUpgradeCost
+print "Bio weapons: %d" %BioUpgradeCost
+print "Gatling: %d" %GatlingUpgradeCost
+print "Missle: %d" %MissleUpgradeCost
+
+# CreepWave = ['HP of each creep','Armor type','speed', Total wave value in Credits]
+CreepWave1 = [1,'Bio',1,10]
+CreepWave2 = [1,'Bio',1,10]
+CreepWave3 = []
+CreepWave4 = []
+CreepWave5 = []
+CreepWave6 = []
+CreepWave7 = []
+CreepWave8 = []
+CreepWave9 = []
+CreepWave10 = []
+CreepWave11 = []
+CreepWave12 = []
+CreepWave13 = []
+CreepWave14 = []
+CreepWave15 = []
+CreepWave16 = []
+CreepWave17 = []
+CreepWave18 = []
+CreepWave19 = []
+BossCreepWave20 = []
+CreepWave21 = []
+CreepWave22 = []
+CreepWave23 = []
+CreepWave24 = []
+CreepWave35 = []
